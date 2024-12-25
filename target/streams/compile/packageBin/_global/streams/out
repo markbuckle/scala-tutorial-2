@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /mnt/c/Users/Marks-Desktop/Coding/scala-tutorial-2/target/scala-3.6.2/scala-tutorial-2_3-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/Marks-Desktop/Coding/scala-tutorial-2/target/scala-3.6.2/classes/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/scala_tutorial_2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/Marks-Desktop/Coding/scala-tutorial-2/target/scala-3.6.2/classes/com/scala_tutorial_2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/scala_tutorial_2/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/Marks-Desktop/Coding/scala-tutorial-2/target/scala-3.6.2/classes/com/scala_tutorial_2/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/scala_tutorial_2/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/Marks-Desktop/Coding/scala-tutorial-2/target/scala-3.6.2/classes/com/scala_tutorial_2/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/scala_tutorial_2/Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/c/Users/Marks-Desktop/Coding/scala-tutorial-2/target/scala-3.6.2/classes/com/scala_tutorial_2/Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
