@@ -146,7 +146,11 @@ libraryDependencies ++= Seq(
 )
 ```
 
-Save and close then create a new folder in your src/test/ directory:
+Save and close.
+
+## setting up and running tests
+
+Create a new folder in your src/test/ directory:
 
 ```sh
 mkdir -p src/test/scala/com/scala-tutorial-2
@@ -156,4 +160,54 @@ Create a test file:
 
 ```sh
 vim $_/SimpleTest.scala
+```
+
+Edit the file:
+
+```sh
+package com.scala_tutorial_2
+
+import org.scalatest.funsuite.AnyFunSuite
+
+class SimpleTest extends AnyFunSuite {
+    test("simplest test possible") {
+        assert("Scala".toLowerCase == "scala")
+    }
+}
+```
+
+Close and run:
+
+```sh
+sbt
+```
+
+Then:
+
+```sh
+compile
+```
+
+To run the test (white sbt server is running)
+
+```sh
+test:testOnly com.scala_tutorial_2.SimpleTest
+```
+
+To test a variety of files, like regex for example:
+
+```sh
+test:testOnly *SimpleTest
+```
+
+To test everything that you have under the test directory:
+
+```sh
+test
+```
+
+To run the test outside of the sbt console, quit the sbt server and then run:
+
+```sh
+sbt test
 ```
