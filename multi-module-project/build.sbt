@@ -5,7 +5,8 @@ ThisBuild / organization := "com.scala_tutorial_2"
 
 // Core module
 lazy val core = (project in file("core")).settings(
-	libraryDependencies += Constants.rootPackage %% "config" % "1.4.2"  
+	assembly / mainClass := Some("com.scala_tutorial_2.CoreApp"),
+	libraryDependencies += Constants.rootPackage %% "cats-effect" % "3.3.0"  
 )
 
 // Server module

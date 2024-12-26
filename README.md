@@ -270,3 +270,45 @@ Create a new file:
 ```sh
 vim Constants.scala
 ```
+
+## using plugins and building an app
+
+Go to the project directory:
+
+```sh
+cd project
+```
+
+Create a new file:
+
+```sh
+vim plugins.sbt
+```
+
+Insert:
+
+```sh
+addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "1.2.0")
+```
+
+Run:
+
+```sh
+sbt
+```
+
+Then:
+
+```sh
+project core
+```
+
+Then:
+
+```sh
+assembly
+```
+
+```sh
+java -jar core-assembly-1.0 jar
+```
