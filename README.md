@@ -256,3 +256,17 @@ project core
 ```
 
 You can then compile or ~compile from there.
+
+## modularizing build.sbt and usign constants
+
+Change to the project directory:
+
+```sh
+cd project
+```
+
+Create a new file:
+
+```sh
+vim Constants.scala
+```
