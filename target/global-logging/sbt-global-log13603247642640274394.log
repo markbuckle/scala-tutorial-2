@@ -1,9 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(58cb3a3d-9a37-4255-9331-edf9fb1a3c3b), Some(CommandSource(console0)))[0m
-[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[0minfo[0m] [0m[0mUpdating scala-tutorial-2_3[0m
-[0m[[0m[0minfo[0m] [0m[0mResolved scala-tutorial-2_3 dependencies[0m
-[0m[[0m[0minfo[0m] [0m[0mFetching artifacts of scala-tutorial-2_3[0m
-[0m[[0m[0minfo[0m] [0m[0mFetched artifacts of scala-tutorial-2_3[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 5 s, completed Dec 25, 2024, 9:49:41 AM[0m
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

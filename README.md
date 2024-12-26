@@ -211,3 +211,48 @@ To run the test outside of the sbt console, quit the sbt server and then run:
 ```sh
 sbt test
 ```
+
+## setting up multi-module projects
+
+```sh
+mkdir multi-module-project
+```
+
+Jump in the new directory:
+
+```sh
+cd $_
+```
+
+Next build your sbt file:
+
+```sh
+vim build sbt
+```
+
+Insert:
+
+```sh
+ThisBuild / scalaVersion := "3.6.2"
+ThisBuild / version := "1.0"
+ThisBuild / name := "multi-module"
+ThisBuild / organization := "com.scala_tutorial_2"
+
+lazy val core = (project in file("core"))
+lazy val server = (project in file("server"))
+lazy val root = (project in file(".")).aggregate(core, server)
+```
+
+Then run:
+
+```sh
+sbt
+```
+
+To switch to the core module, run:
+
+```sh
+project core
+```
+
+You can then compile or ~compile from there.
